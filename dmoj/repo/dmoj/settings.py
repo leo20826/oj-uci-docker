@@ -539,6 +539,7 @@ LOCALE_PATHS = [
 
 LANGUAGES = [
     ('en', _('English')),
+    ('es', _('Spanish')),
     ('vi', _('Vietnamese')),
 ]
 
