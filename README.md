@@ -108,7 +108,7 @@ The bridge instance is included in this Docker setup and should be running once 
 
 ### Migrating
 
-As the TGBOJ site is a Django app, you may need to migrate whenever you update. Assuming the site container is running, running the following command should suffice:
+As the OJ site is a Django app, you may need to migrate whenever you update. Assuming the site container is running, running the following command should suffice:
 
 ```sh
 ./scripts/migrate
