@@ -1,4 +1,0 @@
-[submodule "dmoj/repo"]
-	path = dmoj/repo
-	url = https://github.com/TGB-Dev/tgboj-v2
-	branch = release
