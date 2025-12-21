@@ -11,8 +11,8 @@ First, [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docke
 Clone the repository:
 
 ```sh
-git clone --recursive https://github.com/TGB-Dev/tgboj-v2-docker.git
-cd tgboj-v2-docker/dmoj
+git clone --recursive https://github.com/TGB-Dev/tgboj-v2-docker.git site
+cd site/dmoj
 ```
 
 From now on, it is assumed you are in the `dmoj` directory.
