@@ -1,4 +1,4 @@
-# TGBOJ-v2 Docker
+# OJ-UCI-Docker
 
 This repository contains the Docker files to run the [TGBOJ-v2](https://github.com/TGB-Dev/tgboj-v2)
 
@@ -11,7 +11,7 @@ First, [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docke
 Clone the repository:
 
 ```sh
-git clone --recursive https://github.com/TGB-Dev/tgboj-v2-docker.git site
+git clone --recursive https://github.com/leo20826/oj-uci-docker.git site
 cd site/dmoj
 ```
 
