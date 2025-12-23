@@ -56,8 +56,8 @@ DATABASES = {
 
 # Internationalization.
 # Documentation: <https://docs.djangoproject.com/en/3.2/topics/i18n/>
-LANGUAGE_CODE = "vi"
-DEFAULT_USER_TIME_ZONE = "Asia/Ho_Chi_Minh"
+LANGUAGE_CODE = "es"
+DEFAULT_USER_TIME_ZONE = "America/Havana"
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
@@ -109,11 +109,11 @@ DEFAULT_FROM_EMAIL = os.environ.get("DEFAULT_FROM_EMAIL", "")
 
 # A tuple of (name, email) pairs that specifies those who will be mailed
 # when the server experiences an error when DEBUG = False.
-ADMINS = (("TGB IID", "iid@giftedbat.edu.vn"),)
+ADMINS = (("OJ", "oj@example.com"),)
 
 # The sender for the aforementioned emails.
 SERVER_EMAIL = os.environ.get(
-    "SERVER_EMAIL", "The Gifted Battlefield Online Judge <system2@system.giftedbat.vn>"
+    "SERVER_EMAIL", "Online Judge <oj@example.com>"
 )
 
 
@@ -141,12 +141,12 @@ DMOJ_RESOURCES = "/assets/resources/"
 ############################################
 
 ## DMOJ site display settings.
-SITE_NAME = os.environ.get("SITE_NAME", "TGBOJ")
+SITE_NAME = os.environ.get("SITE_NAME", "OJ")
 SITE_FULL_URL = os.environ.get("SITE_FULL_URL", "http://localhost/")
 SITE_LONG_NAME = os.environ.get(
-    "SITE_LONG_NAME", "TGBOJ: The Gifted Battlefield Online Judge"
+    "SITE_LONG_NAME", "OJ: Online Judge"
 )
-SITE_ADMIN_EMAIL = os.environ.get("SITE_ADMIN_EMAIL", "admin@giftedbat.edu.vn")
+SITE_ADMIN_EMAIL = os.environ.get("SITE_ADMIN_EMAIL", "admin@example.com")
 TERMS_OF_SERVICE_URL = None
 
 ## Media files settings.
@@ -359,3 +359,7 @@ LOGGING = {
 
 FILE_UPLOAD_PERMISSIONS = 0o644
 MOSS_API_KEY = os.environ.get("MOSS_API_KEY", "")
+
+REGISTRATION_OPEN = True
+DMOJ_RATING_COLORS = True
+X_FRAME_OPTIONS = 'DENY'
