@@ -11,7 +11,7 @@ First, [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docke
 Clone the repository:
 
 ```sh
-git clone --recursive https://github.com/leo20826/oj-uci-docker.git site
+git clone https://github.com/leo20826/oj-uci-docker.git site
 cd site/dmoj
 ```
 
