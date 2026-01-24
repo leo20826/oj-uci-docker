@@ -1,7 +1,7 @@
 FROM caddy:2.10-builder-alpine AS builder
 
 # Usamos el proxy chino (muy estable para saltar bloqueos de Google)
-ENV GOPROXY=https://goproxy.cn,direct
+# ENV GOPROXY=https://goproxy.cn,direct
 
 RUN xcaddy build \
     --with github.com/BadAimWeeb/caddy-uwsgi-transport \
